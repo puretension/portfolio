@@ -20,7 +20,7 @@ export default function Header() {
                     <Link href="/projects" className="mr-5 hover:text-gray-900">
                             PROJECTS
                     </Link>
-                    <Link href="/contact" className="mr-5 hover:text-gray-900">
+                    <Link href="https://open.kakao.com/o/sOj6HP5f" className="mr-5 hover:text-gray-900">
                             CONTACT 
                     </Link>
                     </nav>
