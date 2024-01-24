@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>puretension's portfolio</title>
+        <title>portfolio</title>
         <meta name="description" content= "just me" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

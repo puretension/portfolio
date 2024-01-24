@@ -24,12 +24,13 @@ export default function Projects({projects}) {
                     <span className="pl-4 white"></span>
                 </h1>
                 <div className="grid grid-cols-1 m-4 md:grid-cols-2 py-10 m-6 gap08 w-full"> 
-                        {projects.results.map((aProject) => (
-                            <div style={{ padding: '10px' }}> {/* 인라인 스타일 프젝카드간에 패딩 적용 */}
-                            <ProjectItem key={aProject.id} data={aProject}/>
+                    {projects.results.map((aProject) => (
+                        <div key={aProject.id} style={{ padding: '10px' }}> {/* key 속성을 여기에 적용 */}
+                            <ProjectItem data={aProject}/>
                         </div>
-                        ))}
-                    </div>
+                    ))}
+                </div>
+
             </div>
         </Layout>
     );
