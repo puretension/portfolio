@@ -4,8 +4,10 @@ import Link from 'next/link';
 export default function Hero() {
     return (
             <>
-                    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                        <h1 className="custom-leading text-5xl mb-7 title-font font-medium text-gray-900">
+                    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col 
+                    md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                        <h1 className="custom-leading text-5xl 
+                        mb-7 title-font font-medium text-gray-900">
                            <span className="mb-4 inline-block">안녕하세요!</span>
                             <br/>
                             <span className="font-bold">개발자 이도형</span>
@@ -28,6 +30,7 @@ export default function Hero() {
                         </div>
                     </div>
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                         <Animation />
                     </div>
                 </>
     );
