@@ -56,11 +56,25 @@ export async function getStaticProps() {
       
       const projects = await res.json()
 
+   // 날짜 파싱 및 내림차순 정렬
+projects.results.sort((a, b) => {
+    const aDate = a.properties["기간"].rich_text[0]?.plain_text.split('.');
+    const bDate = b.properties["기간"].rich_text[0]?.plain_text.split('.');
+    const aYear = parseInt(aDate[0], 10) + 2000; // '23' -> 2023
+    const bYear = parseInt(bDate[0], 10) + 2000;
+    const aMonth = parseInt(aDate[1], 10);
+    const bMonth = parseInt(bDate[1], 10);
+
+    if (aYear !== bYear) return bYear - aYear; // 연도에 대한 내림차순 정렬
+    return bMonth - aMonth; // 월에 대한 내림차순 정렬
+});
+
+
       const projectNames = projects.results.map(project => {
         if (project.properties["한줄 소개"].rich_text.length > 0) {
             return project.properties["한줄 소개"].rich_text[0].text.content;
         } else {
-            return "한줄 소개 등록 예정입니다 조금만 기다려 주세요!"; // 또는 적절한 기본값
+            return "한줄 소개 등록 예정입니다 조금만 기다려 주세요!"; 
         }
     });
     
