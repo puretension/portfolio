@@ -16,6 +16,17 @@ Portfolio는 자바스크립트를 포함한 웹개발 공부를 시작한 후, 
 ### 소요 기간
 2024년 1월 24일 - 2023년 1월 25일<br/>
 
+## 🛠️ Tech Stack 🛠️
+<div>
+    <!-- Language 추가 -->
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+    <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff&style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+    <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white/">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
+</div>
+
 ## 기능 구현
 
 ### Theme(LightMode/DarkMode)
@@ -40,16 +51,6 @@ Portfolio는 자바스크립트를 포함한 웹개발 공부를 시작한 후, 
 ![스크린샷 2024-01-25 오전 8 51 26](https://github.com/puretension/portfolio/assets/106448279/6d81b749-1dbf-4ee8-9e6c-57e4c22a7f88)
 ![스크린샷 2024-01-25 오전 8 50 49](https://github.com/puretension/portfolio/assets/106448279/b267c601-83de-43af-8378-3f87584bf6a2)
 
-## 🛠️ Tech Stack 🛠️
-<div>
-    <!-- Language 추가 -->
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-    <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff&style=for-the-badge"/>
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
-    <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white/">
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
-</div>
 
 ## 추가적으로 개발해보고 싶은 기능 & 컴포넌트
 - [ ] 나의 프로필 이미지
