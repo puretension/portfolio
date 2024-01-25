@@ -16,7 +16,7 @@ export default function Hero() {
                 <h1 className="custom-leading text-5xl mb-7 title-font font-medium text-gray-900">
                     <span className="mb-4 inline-block">안녕하세요!</span>
                     <br/>
-                    <span className="font-bold">개발자 이도형</span> 입니다.
+                    <span className="font-bold">개발자 이도형</span>입니다.
                     <br className="hidden lg:inline-block"/>
                 </h1>
                 <p className="sm:text-xl text-sm mb-8 sm:leading-10 mb-10">
