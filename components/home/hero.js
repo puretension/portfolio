@@ -13,16 +13,16 @@ export default function Hero() {
                     style={{ width: '300px', height: 'auto',borderRadius: '5%' }} 
                 />
                  <br/>
-                <h1 className="custom-leading text-5xl mb-7 title-font font-medium text-gray-900">
+                <h1 className="custom-leading text-4xl mb-7 title-font font-medium text-gray-900">
                     <span className="mb-4 inline-block">안녕하세요!</span>
                     <br/>
                     <span className="font-bold">개발자 이도형</span>입니다.
                     <br className="hidden lg:inline-block"/>
                 </h1>
-                <p className="sm:text-xl text-sm mb-8 sm:leading-10 mb-10">
+                <p className="sm:text-xxl text-m mb-8 sm:leading-10 mb-10">
                     저는 개발을 도구적 관점으로 접근합니다.
                     <br/>
-                    비즈니스 모델을 제품에 온전히 담아내기를 중시하며 
+                    비즈니스 모델을 제품에 온전히 담아내고자 하고 
                     <br/>
                     그 과정에서 사용하려는 기술의 존재 이유를 
                     <br/>
